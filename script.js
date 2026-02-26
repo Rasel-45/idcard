@@ -1,12 +1,12 @@
 function login(){
 
-let user=document.getElementById("user").value;
+let user=document.getElementById("user").value.trim();
 
-let pass=document.getElementById("pass").value;
+let pass=document.getElementById("pass").value.trim();
 
 
 
-if(user=="admin" && pass=="1234"){
+if(user==="admin" && pass==="1234"){
 
 window.location="idcard.html";
 
@@ -14,7 +14,7 @@ window.location="idcard.html";
 
 else{
 
-document.getElementById("error").innerHTML="Wrong Password";
+document.getElementById("error").innerText="Wrong Username or Password";
 
 }
 
@@ -76,4 +76,5 @@ link.click();
 });
 
 }
+
 
