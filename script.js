@@ -31,7 +31,7 @@ let roll=document.getElementById("roll").value;
 
 let address=document.getElementById("address").value;
 
-let class=document.getElementById("class").value;
+let sclass=document.getElementById("class").value;
 
 let photo=document.getElementById("photo").files[0];
 
@@ -76,3 +76,4 @@ link.click();
 });
 
 }
+
