@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ID Card Generator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>Student ID Card Generator</h2>
+
+<div class="form">
+
+<input type="file" id="photo">
+
+<input type="text" id="name" placeholder="Student Name">
+
+<input type="text" id="roll" placeholder="Roll Number">
+
+<input type="text" id="class" placeholder="Class">
+
+<input type="text" id="address" placeholder="Address">
+
+<button onclick="generate()">Generate</button>
+
+<button onclick="download()">Download</button>
+
+</div>
+
+
+
+<div class="card" id="card">
+
+<img src="logo.png" class="logo">
+
+<h3>Bogora English Medium School</h3>
+
+<img id="img" class="photo">
+
+<p id="sname">Name</p>
+
+<p id="sroll">Roll</p>
+
+<p id="sclass">Class</p>
+
+<p id="saddress">Address</p>
+
+</div>
+
+<script src="script.js"></script>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+</body>
+</html>
